@@ -1,7 +1,15 @@
 body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-arrow/arrow38.gif'), auto }
-body
-{
-	background-color:#3399ff;
+@font-face {
+    font-family: 'claphappy';
+    src: url('claphappy-webfont.eot');
+    src: url('claphappy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('claphappy-webfont.woff2') format('woff2'),
+         url('claphappy-webfont.woff') format('woff'),
+         url('claphappy-webfont.ttf') format('truetype'),
+         url('claphappy-webfont.svg#claphappymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 #smallscreen{
@@ -119,5 +127,10 @@ font-size: 11px;
 }
 .navbar-default .navbar-fnt {
     font-family:"claphappy";
+}
+
+body{
+	background-color:#acf1fc;
+font-family: "claphappy"; 
 }
 
