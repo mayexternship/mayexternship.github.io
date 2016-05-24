@@ -1,0 +1,25 @@
+body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-arrow/arrow38.gif'), auto }
+
+.smallscreen2{
+font-family:"claphappy";
+width: 800px;
+height: 800px;
+border: 0px solid;
+color:#000000;
+}
+
+.container {
+      display: inline-block;
+      float: left;
+    }
+
+.right {
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 50px;
+}
+
+body{
+	background-color:#99ffcc;
+font-family: "claphappy"; 
+}
