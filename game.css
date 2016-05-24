@@ -1,4 +1,9 @@
 body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-arrow/arrow38.gif'), auto }
+body{
+background-color:#acf1fc;
+font-family: "claphappy"; 
+}
+
 @font-face {
     font-family: 'claphappy';
     src: url('claphappy-webfont.eot');
@@ -129,8 +134,4 @@ font-size: 11px;
     font-family:"claphappy";
 }
 
-body{
-	background-color:#acf1fc;
-font-family: "claphappy"; 
-}
 
