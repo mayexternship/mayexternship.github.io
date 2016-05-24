@@ -11,6 +11,13 @@ height: 800px;
 border: 0px solid;
 color:#000000;
 }
+.navbar-default {
+    background-color:#edeffc;
+    border-color:#D7E2EB; 
+}
+.navbar-default .navbar-fnt {
+    font-family:"claphappy";
+}
 
 .container {
       display: inline-block;
@@ -24,10 +31,3 @@ padding-bottom: 50px;
 }
 
 
-.navbar-default {
-    background-color:#edeffc;
-    border-color:#D7E2EB; 
-}
-.navbar-default .navbar-fnt {
-    font-family:"claphappy";
-}
