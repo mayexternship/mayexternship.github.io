@@ -113,4 +113,11 @@ a.tooltip span
 font-size: 11px;
 }
 
+.navbar-default {
+    background-color:#edeffc;
+    border-color:#D7E2EB; 
+}
+.navbar-default .navbar-fnt {
+    font-family:"claphappy";
+}
 

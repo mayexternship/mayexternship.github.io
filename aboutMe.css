@@ -23,3 +23,10 @@ body{
 	background-color:#99ffcc;
 font-family: "claphappy"; 
 }
+.navbar-default {
+    background-color:#edeffc;
+    border-color:#D7E2EB; 
+}
+.navbar-default .navbar-fnt {
+    font-family:"claphappy";
+}
