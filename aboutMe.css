@@ -1,54 +1,5 @@
 body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-arrow/arrow38.gif'), auto }
-body{
-	background-color:#acf1fc;
-font-family: "claphappy"; 
-}
 
-.smallscreen2{
-font-family:"claphappy";
-width: 800px;
-height: 800px;
-border: 0px solid;
-color:#000000;
-}
-.navbar-default {
-    background-color:#edeffc;
-    border-color:#D7E2EB; 
-}
-.navbar-default .navbar-fnt {
-    font-family:"claphappy";
-}
-
-.container {
-      display: inline-block;
-      float: left;
-    }
-
-.right {
-padding-left: 15px;
-padding-right: 15px;
-padding-bottom: 50px;
-}
-
-
-/*HTHIS ISIFO WHEREIJTSTJSIOHIOFHIOFSHSOISFOIHFIOSHFOISFHSFIOHSFOIHFSO*/
-
-body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-arrow/arrow38.gif'), auto }
-
-body{
-	background-color:#acf1fc;
-font-family: "claphappy"; 
-}
-
-.navbar-default {
-    background-color:#edeffc;
-    border-color:#D7E2EB; 
-}
-.navbar-default .navbar-fnt {
-    font-family:"claphappy";
-}
-
-/*put in new font*/
 @font-face {
     font-family: 'claphappy';
     src: url('claphappy-webfont.eot');
@@ -62,55 +13,26 @@ font-family: "claphappy";
 
 }
 
-.intro {
-    padding-top: 25px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    font-family: "claphappy";
-}
-
-#tp{
-position: absolute;
-}
-
-.intro2{
-    padding-top: 10px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-}
-
-#tp2{
-font-family:"teen";
-}
-
-.navbar-default {
-    background-color:#edeffc;
-    border-color:#D7E2EB; 
-}
-.navbar-default .navbar-fnt {
-    font-family:"claphappy";
-}
-
-.start {
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 30px;
-padding-right: 30px;
-}
-
-#pls {
-padding-top: 50px;
-padding-bottom: 20px;
+body{
+	background-color:#acf1fc;
+font-family: "claphappy"; 
 }
 
 .smallscreen2{
+background-color:#acf1fc;
 font-family:"claphappy";
 width: 800px;
 height: 800px;
 border: 0px solid;
 color:#000000;
+}
+.navbar-default {
+    background-color:#edeffc;
+    border-color:#D7E2EB; 
+    font-family:"claphappy";
+}
+.navbar-default .navbar-fnt {
+    font-family:"claphappy";
 }
 
 .container {
@@ -123,4 +45,6 @@ padding-left: 15px;
 padding-right: 15px;
 padding-bottom: 50px;
 }
+
+
 
