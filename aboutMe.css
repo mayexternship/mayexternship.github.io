@@ -14,12 +14,12 @@ body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cur
 }
 
 body{
-	background-color:#acf1fc;
+	background-color:#fdfbff;
 font-family: "claphappy"; 
 }
 
 .smallscreen2{
-background-color:#e5faff;
+background-color:#fdfbff;
 font-family:"claphappy";
 width: 800px;
 height: 800px;
@@ -36,7 +36,11 @@ color:#000000;
 }
 
 .container {
-      display: inline-block;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 50px;
+}
+      /*display: inline-block;
       float: left;
     }
 
@@ -44,7 +48,7 @@ color:#000000;
 padding-left: 15px;
 padding-right: 15px;
 padding-bottom: 50px;
-}
+}*/
 
 
 
