@@ -1,9 +1,24 @@
 
-function functionstart(id)
+function funcStart(id)
 {
- 	document.getElementById("smallscreen").style.backgroundImage = "url('test.png')";
-
+ 	document.getElementById("smallscreen").style.backgroundImage = "url('testPage.png')";
+document.getElementById("testButton").style.display = "block";
+var e = document.getElementById(id); //makeup button gone
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("instructions"); //makeup button gone
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("entername"); //makeup button gone
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+$('#scenario1').show(); return false;
 }
-
 
 
