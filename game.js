@@ -1,5 +1,5 @@
 
-function funcStart(id)
+function functionStart(id)
 {
  	document.getElementById("smallscreen").style.backgroundImage = "url('testPage.png')";
 document.getElementById("testButton").style.display = "block";
