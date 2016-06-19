@@ -7,7 +7,12 @@ var e = document.getElementById(id);
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("instructions"); 
+    var e = document.getElementById("instructions"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("glassesButton"); 
     if(e.style.display == "none")
     e.style.display = "block";
 	else
