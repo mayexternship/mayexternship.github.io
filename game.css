@@ -140,6 +140,7 @@ font-size: 11px;
     font-family:"claphappy";
 }
 
+
 a.tooltip {outline:none; }
 a.tooltip strong {line-height:30px;}
 a.tooltip:hover {text-decoration:none;} 
@@ -163,4 +164,7 @@ a.tooltip span
 .tooltip {
 font-size: 11px;
 }
+
+
+
 
