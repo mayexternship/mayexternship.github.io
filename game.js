@@ -3,6 +3,8 @@ function functionStart(id)
 {
  	document.getElementById("smallscreen").style.backgroundImage = "url('scenetest.png')";
 document.getElementById("glassesButton").style.display = "block";
+ 	 	document.getElementById("pop1").style.display = "block";
+
 
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -32,6 +34,11 @@ var e = document.getElementById(id);
 	else
     e.style.display = "none";
 var e = document.getElementById("scenario1"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var e = document.getElementById("pop1"); 
     if(e.style.display == "none")
     e.style.display = "block";
 	else
