@@ -2,7 +2,6 @@
 function functionStart(id)
 {
  	document.getElementById("smallscreen").style.backgroundImage = "url('scenetest.png')";
-
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
