@@ -1,7 +1,7 @@
 
 function functionStart(id)
 {
- 	document.getElementById("smallscreen").style.backgroundImage = "url('scene1.png')";
+ 	document.getElementById("smallscreen").style.backgroundImage = "url('scene.png')";
 document.getElementById("testButton").style.display = "block";
 var e = document.getElementById(id); //makeup button gone
     if(e.style.display == "none")
