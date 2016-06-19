@@ -28,7 +28,6 @@ $('#scenario1').show(); return false;
 function functionGlasses(id)
 {
 document.getElementById("testButton").style.display = "block";
-
  document.getElementById("smallscreen").style.backgroundImage = "url('test.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
