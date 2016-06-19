@@ -2,7 +2,8 @@
 function functionStart(id)
 {
  	document.getElementById("smallscreen").style.backgroundImage = "url('scenetest.png')";
-document.getElementById("testButton").style.display = "block";
+document.getElementById("glassesButton").style.display = "block";
+
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -21,16 +22,22 @@ var e = document.getElementById("entername");
 $('#scenario1').show(); return false;
 }
 
-function function2(id)
+function functionGlasses(id)
 {
- 	document.getElementById("smallscreen").style.backgroundImage = "url('test.png')";
-document.getElementById("nextButton").style.display = "block"; //show next
+document.getElementById("testButton").style.display = "block";
+
+ document.getElementById("smallscreen").style.backgroundImage = "url('test.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
 	else
     e.style.display = "none";
 var e = document.getElementById("scenario1"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("glassesButton"); 
     if(e.style.display == "none")
     e.style.display = "block";
 	else
