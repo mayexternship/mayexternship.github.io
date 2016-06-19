@@ -37,10 +37,5 @@ var e = document.getElementById("scenario1");
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("glassesButton"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
 $('#answer1').show(); return false;
 }
