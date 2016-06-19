@@ -3,17 +3,17 @@ function functionStart(id)
 {
  	document.getElementById("smallscreen").style.backgroundImage = "url('scenetest.png')";
 document.getElementById("testButton").style.display = "block";
-var e = document.getElementById(id); //makeup button gone
+var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("instructions"); //makeup button gone
+var e = document.getElementById("instructions"); 
     if(e.style.display == "none")
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("entername"); //makeup button gone
+var e = document.getElementById("entername"); 
     if(e.style.display == "none")
     e.style.display = "block";
 	else
@@ -21,4 +21,19 @@ var e = document.getElementById("entername"); //makeup button gone
 $('#scenario1').show(); return false;
 }
 
-
+function functionStart(id)
+{
+ 	document.getElementById("smallscreen").style.backgroundImage = "url('test.png')";
+document.getElementById("nextButton").style.display = "block"; //show next
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("scenario1"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+$('#answer1').show(); return false;
+}
