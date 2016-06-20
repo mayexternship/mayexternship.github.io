@@ -25,10 +25,7 @@ $('#scenario1').show(); return false;
 function functionGlasses(id)
 {
 document.getElementById("choiceA").style.display = "block";
-document.getElementById("choiceB").style.display = "block";
-document.getElementById("choiceC").style.display = "block";
-document.getElementById("choiceD").style.display = "block";
-document.getElementById("answer2").style.display = "block";
+
 
  document.getElementById("smallscreen").style.backgroundImage = "url('test.png')";
 var e = document.getElementById(id); 
