@@ -52,4 +52,11 @@ var e = document.getElementById("glassesButton");
     e.style.display = "none";
 }
 
-
+function funcAns(id){
+document.getElementById("incorrectAns").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+}
