@@ -101,11 +101,6 @@ var e = document.getElementById("choiceA");
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("choiceB"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
 var e = document.getElementById("choiceC"); 
     if(e.style.display == "none")
     e.style.display = "block";
