@@ -53,20 +53,13 @@ var e = document.getElementById("glassesButton");
 }
 
 
-function functionAAns(id)
+function functionAns(id)
 {
 document.getElementById("incorrectAns").style.display = "block";
 
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var v = document.getElementById("choiceA"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-$('#incorrectAns').show(); return false;
+}
+function functionAns2(id)
+{
+document.getElementById("incorrectAns").style.display = "block";
 
 }
