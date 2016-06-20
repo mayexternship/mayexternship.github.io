@@ -60,8 +60,6 @@ var e = document.getElementById("glassesButton");
 
 function functionAAns(id)
 {
-document.getElementById("incorrectAns").style.display = "block";
-
  document.getElementById("smallscreen").style.backgroundImage = "url('plaid.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -73,73 +71,6 @@ var v = document.getElementById("choiceA");
     v.style.display = "block";
   else
     v.style.display = "none";
-var v = document.getElementById("choiceB"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("choiceC"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("choiceD"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("answer1"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("answer2"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-
-}
-
-function functionBAns(id)
-{
- document.getElementById("smallscreen").style.backgroundImage = "url('plaid.png')";
-document.getElementById("correctAns").style.display = "block";
-
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var v = document.getElementById("choiceA"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("choiceB"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("choiceC"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("choiceD"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("answer1"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
-var v = document.getElementById("answer2"); 
-    if(v.style.display == "none")
-    v.style.display = "block";
-  else
-    v.style.display = "none";
+$('#incorrectAns').show(); return false;
 
 }
