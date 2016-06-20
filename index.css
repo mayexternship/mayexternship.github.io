@@ -2,7 +2,7 @@ body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cur
 
 body{
 	background-color:#e9f6fd;
-font-family: "claphappy"; 
+font-family: "COCOMAT"; 
 }
 
 .navbar-default {
@@ -23,6 +23,19 @@ font-family: "claphappy";
          url('claphappy-webfont.ttf') format('truetype'),
          url('claphappy-webfont.svg#claphappymedium') format('svg');
     font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'COCOMAT';
+    src: url('COCOMAT-webfont.eot');
+    src: url('COCOMATwebfont.eot?#iefix') format('embedded-opentype'),
+         url('COCOMAT-webfont.woff2') format('woff2'),
+         url('COCOMAT-webfont.woff') format('woff'),
+         url('COCOMAT-webfont.ttf') format('truetype'),
+         url('COCOMAT-webfont.svg#COCOMATymedium') format('svg');
+    font-weight: light;
     font-style: normal;
 
 }
