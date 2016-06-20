@@ -48,7 +48,7 @@ background-position: center;
 .button {
    font-family:"claphappy";
    width: 100px;
-   height: 20px;
+   height: 30px;
    border-top: 1px solid #96d1f8;
    background: #98edf0;
    background: -webkit-gradient(linear, left top, left bottom, from(#be96eb), to(#98edf0));
@@ -65,7 +65,7 @@ background-position: center;
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: #000000;
-   font-size: 10px;
+   font-size: 9px;
    text-decoration: none;
    vertical-align: middle;
    top:200px;
