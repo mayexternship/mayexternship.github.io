@@ -53,7 +53,6 @@ var e = document.getElementById("glassesButton");
 
 function funcWAns(id){
 document.getElementById("incorrectAns").style.display = "block";
-
 var e = document.getElementById("answer2"); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -67,7 +66,6 @@ var e = document.getElementById("answer1");
 }
 function funcCAns(id){
 document.getElementById("correctAns").style.display = "block";
-
 var e = document.getElementById("answer2"); 
     if(e.style.display == "none")
     e.style.display = "block";
