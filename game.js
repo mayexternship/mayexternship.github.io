@@ -60,6 +60,8 @@ var e = document.getElementById("glassesButton");
 
 function functionCAns(id)
 {
+document.getElementById("incorrectAns").style.display = "block";
+
  document.getElementById("smallscreen").style.backgroundImage = "url('plaid.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -96,13 +98,13 @@ var v = document.getElementById("answer2");
     v.style.display = "block";
   else
     v.style.display = "none";
-$('incorrectAns').show(); return false;
 
 }
 
 function functionWAns(id)
 {
  document.getElementById("smallscreen").style.backgroundImage = "url('plaid.png')";
+document.getElementById("correctAns").style.display = "block";
 
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -139,6 +141,5 @@ var v = document.getElementById("answer2");
     v.style.display = "block";
   else
     v.style.display = "none";
-$('#correctAns').show(); return false;
 
 }
