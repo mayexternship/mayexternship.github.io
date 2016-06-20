@@ -51,7 +51,7 @@ var e = document.getElementById("glassesButton");
     e.style.display = "none";
 }
 
-function funcAns(id){
+function funcWAns(id){
 document.getElementById("incorrectAns").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -73,4 +73,38 @@ var e = document.getElementById("choiceD");
     e.style.display = "block";
 	else
     e.style.display = "none";
+var e = document.getElementById("answer2"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
 }
+function funcCAns(id){
+document.getElementById("correctAns").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("choiceB"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("choiceC"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("choiceD"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var e = document.getElementById("answer2"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+}
+
