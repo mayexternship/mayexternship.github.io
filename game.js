@@ -58,26 +58,6 @@ var e = document.getElementById(id);
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("choiceA"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceB"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceC"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceD"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
 var e = document.getElementById("answer2"); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -96,21 +76,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("choiceA"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceC"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceD"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
+
 var e = document.getElementById("answer2"); 
     if(e.style.display == "none")
     e.style.display = "block";
