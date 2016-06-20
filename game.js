@@ -29,7 +29,7 @@ document.getElementById("choiceC").style.display = "block";
 document.getElementById("choiceD").style.display = "block";
 
 document.getElementById("answer2").style.display = "block";
-
+document.getElementById("buttonnext").style.display = "block";
 
  document.getElementById("smallscreen").style.backgroundImage = "url('test.png')";
 var e = document.getElementById(id); 
@@ -53,6 +53,7 @@ var e = document.getElementById("glassesButton");
 
 function funcWAns(id){
 document.getElementById("incorrectAns").style.display = "block";
+document.getElementById("buttonnext").style.display = "block";
 var e = document.getElementById("answer2"); 
     if(e.style.display == "none")
     e.style.display = "block";
