@@ -25,6 +25,7 @@ $('#scenario1').show(); return false;
 function functionGlasses(id)
 {
 document.getElementById("choiceA").style.display = "block";
+document.getElementById("answer2").style.display = "block";
 
 
  document.getElementById("smallscreen").style.backgroundImage = "url('test.png')";
@@ -44,8 +45,6 @@ var v = document.getElementById("pop1");
   else
     v.style.display = "none";
 $('#answer1').show(); return false;
-$('#answer2').show(); return false;
-
 var e = document.getElementById("glassesButton"); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -54,10 +53,10 @@ var e = document.getElementById("glassesButton");
 }
 
 
-
 function functionAAns(id)
 {
- document.getElementById("smallscreen").style.backgroundImage = "url('plaid.png')";
+document.getElementById("incorrectAns").style.display = "block";
+
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
