@@ -64,9 +64,4 @@ var e = document.getElementById("answer2");
     e.style.display = "block";
 	else
     e.style.display = "none";
-var d = document.getElementById("answer1"); 
-    if(d.style.display == "none")
-    d.style.display = "block";
-	else
-    d.style.display = "none";
 }
