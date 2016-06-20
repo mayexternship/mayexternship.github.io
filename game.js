@@ -58,53 +58,15 @@ var e = document.getElementById(id);
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("choiceB"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceC"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceD"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("answer2"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-}
-function funcCAns(id){
-document.getElementById("correctAns").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceB"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceC"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("choiceD"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var e = document.getElementById("answer2"); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-}
 
+var e = document.getElementById("answer2"); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var d = document.getElementById("answer1"); 
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+}
