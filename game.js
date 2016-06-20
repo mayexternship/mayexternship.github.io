@@ -58,7 +58,7 @@ var e = document.getElementById("glassesButton");
 
 
 
-function functionCAns(id)
+function functionAAns(id)
 {
 document.getElementById("incorrectAns").style.display = "block";
 
@@ -101,7 +101,7 @@ var v = document.getElementById("answer2");
 
 }
 
-function functionWAns(id)
+function functionBAns(id)
 {
  document.getElementById("smallscreen").style.backgroundImage = "url('plaid.png')";
 document.getElementById("correctAns").style.display = "block";
