@@ -53,13 +53,3 @@ var e = document.getElementById("glassesButton");
 }
 
 
-function functionAns(id)
-{
-document.getElementById("incorrectAns").style.display = "block";
-
-}
-function functionAns2(id)
-{
-document.getElementById("incorrectAns").style.display = "block";
-
-}
